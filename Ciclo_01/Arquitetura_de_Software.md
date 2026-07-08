@@ -83,3 +83,60 @@ src/
     └── web/
         └── server.js          # Configuração do servidor express/fastify
 ```
+
+## Design de uma API REST
+Desenhar o contrato de uma API antes de escrever o código economiza horas de refatoração.
+
+Para um **Sistema de Biblioteca**, vamos trabalhar com duas entidades (recursos) principais: Livros (**`books`**) e Empréstimos (**`loans`**). 
+Em REST, sempre usamos substantivos no plural para identificar os recursos.
+
+Aqui está o design completo da API com os verbos, rotas, corpos de requisição (**`body`**) e códigos de status HTTP corretos para cada cenário:
+
+#### Gerenciamento de Livros (**`/books`**)
+Listar Livros
+ * **Método**: **`GET`**
+ * **Rota**: **`/books`**
+ * **Resposta de Sucesso**: **`200 OK`** (Retorna um array com todos os livros).
+
+#### Buscar Detalhes de um Livro
+ * **Método**: **`GET`**
+ * **Rota**: **`/books/:id`** (Ex: **`/books/45`**)
+ * **Respostas Possíveis**:
+   * **`200 OK`** se o livro existir (Retorna o objeto do livro).
+   * **`404 Not Found`** se o ID não existir no sistema.
+
+#### Cadastrar um Novo Livro
+  * **Método**: **`POST`**
+  * **Rota**: **`/books`**
+  * **Request Body (JSON)**:
+    ```
+    {
+      "title": "O Senhor dos Anéis",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-8551002490"
+    }
+
+    ```
+
+ * Respostas Possíveis:
+   * 201 Created se o empréstimo for gerado.
+   * 400 Bad Request se o livro solicitado já estiver emprestado para outra pessoa (erro de negócio).
+   * 404 Not Found se o bookId ou o userId não existirem no sistema.
+
+### Devolver um Livro (Atualizar o Empréstimo)
+Quando o usuário devolve o livro, o empréstimo foi modificado (ganhou uma data de devolução e o status mudou para concluído). Usamos PATCH porque estamos atualizando apenas uma parte do empréstimo.
+
+   * Método: PATCH
+   * Rota: /loans/:id/return (Nota: Extensões na rota como /return são aceitas no REST clássico para ações específicas em recursos).
+   * Respostas Possíveis:
+     * 200 OK indicando que a devolução foi registrada.
+     * 400 Bad Request se o livro já tiver sido devolvido anteriormente.
+
+**Cenário Extra: O Erro do Servidor** (**`500 Internal Server Error`**)
+Imagine que o usuário faz um GET /books, mas o banco de dados da biblioteca caiu naquele exato momento. O seu código vai capturar essa falha interna e deve retornar obrigatoriamente um 500 Internal Server Error com uma mensagem amigável (sem expor dados sensíveis do banco):
+
+```
+{
+  "error": "Desculpe, ocorreu um erro interno no nosso sistema. Tente novamente mais tarde."
+}
+```
