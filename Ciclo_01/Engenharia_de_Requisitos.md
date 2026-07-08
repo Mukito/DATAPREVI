@@ -5,12 +5,14 @@ Olhar para a Engenharia de Requisitos (ER) pelo prisma técnico é entender que 
 Se errarmos aqui, o código mais bonito do mundo ainda entregará o produto errado. Vamos destrinchar os pilares técnicos da ER:
 
 ## 1. Técnicas de Elicitação de Requisitos
-A elicitação é o processo de descobrir, extrair e entender as necessidades do sistema. Tecnicamente, dividimos as abordagens em categorias dependendo do cenário:
-Entrevistas e Questionários: Clássicas. Podem ser estruturadas (com roteiro técnico rígido) ou abertas (foco na exploração).
-Workshops de JAD (Joint Application Design): Sessões intensivas que reúnem desenvolvedores, analistas e stakeholders na mesma sala para desenhar o escopo em tempo real, reduzindo ruídos de comunicação.
-Prototipagem: Criar wireframes ou maquetes interativas (baixa ou alta fidelidade). Tecnicamente essencial para validar a usabilidade e a arquitetura de fluxos antes de escrever código de produção.
-Observação de Campo (Etnografia): O analista observa o usuário no ambiente real de trabalho. Excelente para sistemas legados complexos onde o usuário "faz mas não sabe explicar como faz".
-Engenharia Reversa / Análise de Documentos: Investigar o banco de dados do sistema antigo, código-fonte ou manuais operacionais existentes para mapear regras de negócio implícitas.
+A elicitação é o processo de descobrir, extrair e entender as necessidades do sistema. 
+Tecnicamente, dividimos as abordagens em categorias dependendo do cenário:
+ * **Entrevistas**: Conversa direta com o usuário. Pode ser aberta (livre) ou fechada (com roteiro). É ótima para começar, mas consome muito tempo.
+ * **Workshops / JAD (Joint Application Design)**: Reuniões intensivas com desenvolvedores, usuários e gestores na mesma sala para fechar escopo rapidamente. Evita o "disse me disse".
+ * **Etnografia (Observação de Campo)**: O analista acompanha o dia a dia do usuário para ver como ele trabalha na prática. Excelente para descobrir requisitos que o usuário faz no piloto automático e esquece de falar em uma entrevista.
+ * **Prototipação**: Construir telas fakes ou modelos rápidos. O usuário visualiza o sistema antes de ele existir e diz: "Isso mesmo" ou "Não era bem isso".
+ * **Questionários**: Envio de perguntas para um grande volume de pessoas. Bom para coletar dados quantitativos, mas ruim para entender nuances complexas.
+ * **Engenharia Reversa / Análise de Documentos**: Investigar o banco de dados do sistema antigo, código-fonte ou manuais operacionais existentes para mapear regras de negócio implícitas.
 
 ## 2. Requisitos Funcionais vs. Requisitos Não-Funcionais
 Esta é a divisão técnica fundamental da especificação.
