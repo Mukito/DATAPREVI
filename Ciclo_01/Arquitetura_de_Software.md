@@ -14,66 +14,72 @@ Para entender o que um arquiteto de software faz, pense nestas três decisões p
   * **Ser Seguro**: Proteger dados sensíveis contra invasões.
   * **Ser Flexível**: Permitir que novos recursos sejam adicionados sem quebrar o que já existe.
 
+### Arquiteturas Comuns no Mercado
+Não existe "arquitetura perfeita", existe a arquitetura certa para o problema certo. Veja os dois modelos mais discutidos hoje:
+ * **Monolito**: O sistema inteiro é construído como um único bloco. É excelente para projetos iniciais e automações porque é fácil de desenvolver e implantar. O risco é que, se uma parte falhar ou ficar lenta, o sistema todo pode cair.
+ * **Microserviços**: O sistema é dividido em pequenos serviços independentes que rodam sozinhos. Se o serviço de emissão de relatórios falhar, o usuário ainda consegue fazer login e usar o resto do sistema. É altamente escalável, mas adiciona bastante complexidade na comunicação e na infraestrutura (geralmente exigindo boas práticas de computação em nuvem).
 
-Monólitos vs. Microsserviços
-Em vez de focar em "qual é o melhor", estude a jornada de evolução de um sistema.
+### Monólitos vs. Microsserviços
+Em vez de focar em "qual é o melhor", estude a **jornada de evolução** de um sistema.
+ * **Arquitetura Monolítica**: Todo o código (módulos, banco de dados, interface) roda como uma única unidade.
+  * O que focar: Entenda que monólitos são ótimos para começar (MVP), fáceis de testar e implantar. O problema surge com o crescimento: se uma parte do sistema quebra ou precisa de mais recursos, você tem que escalar o   monólito inteiro.
+ * **Microsserviços**: O sistema é dividido em pequenos serviços independentes que se comunicam via rede (APIs). Cada um cuida de uma função de negócio e pode ter seu próprio banco de dados.
+  * O que focar: Eles resolvem o problema de escala e permitem que times trabalhem de forma independente. Porém, trazem uma complexidade gigante de rede, latência e consistência de dados.
 
-Arquitetura Monolítica: Todo o código (módulos, banco de dados, interface) roda como uma única unidade.
+**Como estudar**: Pegue um sistema simples (como um e-commerce). Desenhe mentalmente como ele funciona como um monólito (uma única aplicação) e depois como ele seria dividido em serviços (Serviço de Autenticação, Serviço de Catálogo, Serviço de Pagamento).
 
-O que focar: Entenda que monólitos são ótimos para começar (MVP), fáceis de testar e implantar. O problema surge com o crescimento: se uma parte do sistema quebra ou precisa de mais recursos, você tem que escalar o monólito inteiro.
-
-Microsserviços: O sistema é dividido em pequenos serviços independentes que se comunicam via rede (APIs). Cada um cuida de uma função de negócio e pode ter seu próprio banco de dados.
-
-O que focar: Eles resolvem o problema de escala e permitem que times trabalhem de forma independente. Porém, trazem uma complexidade gigante de rede, latência e consistência de dados.
-
-Como estudar: Pegue um sistema simples (como um e-commerce). Desenhe mentalmente como ele funciona como um monólito (uma única aplicação) e depois como ele seria dividido em serviços (Serviço de Autenticação, Serviço de Catálogo, Serviço de Pagamento).
-
-2. Padrões Arquiteturais (MVC, Clean Architecture, DDD)
+### Padrões Arquiteturais (MVC, Clean Architecture, DDD)
 O segredo aqui é entender o princípio da Separação de Preocupações (separation of concerns). Cada padrão resolve isso em um nível diferente.
+ * MVC (Model-View-Controller): Padrão de interface/aplicação.
+   * Model: Os dados e as regras de negócio.
+   * View: O que o usuário vê (interface).
+   * Controller: O intermediário que recebe o clique do usuário, avisa o Model e atualiza a View.
 
-MVC (Model-View-Controller): Padrão de interface/aplicação.
+ * **Clean Architecture (Arquitetura Limpa)**: Focada na independência do código. O núcleo da sua aplicação (regras de negócio) fica no centro e não deve depender de frameworks, bancos de dados ou ferramentas externas. Tudo que é externo fica nas camadas de fora.
+ * **DDD (Domain-Driven Design)**: Não é só uma arquitetura, é uma filosofia de design focada no "Domínio" (o problema real do negócio). Estude conceitos como Bounded Contexts (delimitar onde um termo significa uma coisa) e Ubiquitous Language (usar os mesmos termos que as pessoas de negócios usam no código).
 
-Model: Os dados e as regras de negócio.
+**Como estudar**: Implemente uma funcionalidade simples (ex: criar um usuário) usando apenas MVC. Depois, tente reescrever essa mesma funcionalidade aplicando os conceitos de camadas da Clean Architecture. Você vai notar como o código fica mais isolado e fácil de testar.
 
-View: O que o usuário vê (interface).
-
-Controller: O intermediário que recebe o clique do usuário, avisa o Model e atualiza a View.
-
-Clean Architecture (Arquitetura Limpa): Focada na independência do código. O núcleo da sua aplicação (regras de negócio) fica no centro e não deve depender de frameworks, bancos de dados ou ferramentas externas. Tudo que é externo fica nas camadas de fora.
-
-DDD (Domain-Driven Design): Não é só uma arquitetura, é uma filosofia de design focada no "Domínio" (o problema real do negócio). Estude conceitos como Bounded Contexts (delimitar onde um termo significa uma coisa) e Ubiquitous Language (usar os mesmos termos que as pessoas de negócios usam no código).
-
-Como estudar: Implemente uma funcionalidade simples (ex: criar um usuário) usando apenas MVC. Depois, tente reescrever essa mesma funcionalidade aplicando os conceitos de camadas da Clean Architecture. Você vai notar como o código fica mais isolado e fácil de testar.
-
-3. Design de APIs (REST, HTTP)
+### Design de APIs (REST, HTTP)
 API é o contrato de comunicação. Foque em entender as regras desse contrato para que ele seja intuitivo.
+ * **REST** e **JSON**: REST é um estilo arquitetural que usa o próprio protocolo HTTP para transferir dados. O JSON é o formato de texto padrão (leve e legível) usado para estruturar esses dados.
+ * **Verbos HTTP (As Ações)**:
+   * **`GET`**: Buscar informações (não altera dados).
+   * **`POST`**: Criar um novo recurso.
+   * **`PUT`**: Atualizar um recurso existente (substituição completa).
+   * **`PATCH`**: Atualizar parcialmente um recurso.
+   * **`DELETE`**: Remover um recurso.
+* **Códigos de Status (As Respostas)**:
+   * **`200 OK`**: Deu tudo certo.
+   * **`201 Created`**: Sucesso, e algo novo foi criado (geralmente resposta de um POST).
+   * **`400 Bad Request`**: Erro do cliente (ex: faltou um campo obrigatório no formulário).
+   * **`401 Unauthorized`**: O cliente precisa se autenticar (fazer login).
+   * **`404 Not Found`**: O recurso solicitado não existe.
+   * **`500 Internal Server Error`**: Erro no servidor (o código quebrou ou o banco caiu).
 
-REST e JSON: REST é um estilo arquitetural que usa o próprio protocolo HTTP para transferir dados. O JSON é o formato de texto padrão (leve e legível) usado para estruturar esses dados.
+**Como estudar**: Use ferramentas como Postman ou Insomnia. Crie uma API falsa (pode usar o `json-server` no Node.js ou ferramentas online) e pratique fazer requisições disparando cenários diferentes para ver os códigos de status mudando na prática (ex: tentar buscar um ID que não existe para ver o `404`).
 
-Verbos HTTP (As Ações):
+### Estrutura de pastas
 
-GET: Buscar informações (não altera dados).
-
-POST: Criar um novo recurso.
-
-PUT: Atualizar um recurso existente (substituição completa).
-
-PATCH: Atualizar parcialmente um recurso.
-
-DELETE: Remover um recurso.
-
-Códigos de Status (As Respostas):
-
-200 OK: Deu tudo certo.
-
-201 Created: Sucesso, e algo novo foi criado (geralmente resposta de um POST).
-
-400 Bad Request: Erro do cliente (ex: faltou um campo obrigatório no formulário).
-
-401 Unauthorized: O cliente precisa se autenticar (fazer login).
-
-404 Not Found: O recurso solicitado não existe.
-
-500 Internal Server Error: Erro no servidor (o código quebrou ou o banco caiu).
-
-Como estudar: Use ferramentas como Postman ou Insomnia. Crie uma API falsa (pode usar o json-server no Node.js ou ferramentas online) e pratique fazer requisições disparando cenários diferentes para ver os códigos de status mudando na prática (ex: tentar buscar um ID que não existe para ver o 404).
+```
+src/
+│
+├── domain/                    # CAMADA 1: Regras de Negócio Fundamentais (Entidades)
+│   └── entities/
+│       └── user.js            # Regras da entidade Usuario (ex: validação de email)
+│
+├── use-cases/                 # CAMADA 2: Casos de Uso (O que o sistema faz)
+│   └── create-user.js         # Lógica específica para criar um usuário
+│
+├── adapters/                  # CAMADA 3: Adaptadores (Conectores)
+│   ├── controllers/
+│   │   └── user-controller.js # Traduz a requisição HTTP para o Caso de Uso
+│   └── repositories/
+│       └── user-repository.js # Interface/Contrato de como salvar no banco
+│
+└── infra/                     # CAMADA 4: Infraestrutura (Ferramentas externas)
+    ├── database/
+    │   └── mongo-user-repo.js # Implementação real do banco de dados (MongoDB)
+    └── web/
+        └── server.js          # Configuração do servidor express/fastify
+```
