@@ -49,10 +49,10 @@ Então o sistema deve aplicar 10% de redução e atualizar o valor total para $9
 ## 4. O Ciclo de Vida Técnico da Engenharia de Requisitos
 Para fechar o panorama, a ER não é um evento único, mas um pipeline contínuo:
 Elicitação: Coleta e descoberta.
-**Análise e Negociação**: Detecção de conflitos (ex: o cliente quer segurança máxima, mas o orçamento só cobre criptografia padrão) e priorização (usando frameworks como MoSCoW).
+ * **Análise e Negociação**: Detecção de conflitos (ex: o cliente quer segurança máxima, mas o orçamento só cobre criptografia padrão) e priorização (usando frameworks como MoSCoW).
 Especificação: Transformar o entendimento em artefatos formais (seja uma especificação de caso de uso ou um backlog de Stories estruturado no Jira).
 Validação e Verificação: Garantir que os requisitos estão corretos (validação: "construímos o produto certo?") e que atendem aos padrões técnicos de escrita (verificação: "construímos o requisito corretamente, sem ambiguidade?").
-**Gestão de Requisitos**: Rastreabilidade (saber qual linha de código ou caso de teste atende a qual requisito) e controle de mudanças (scope creep).
+ * **Gestão de Requisitos**: Rastreabilidade (saber qual linha de código ou caso de teste atende a qual requisito) e controle de mudanças (scope creep).
 Do ponto de vista prático e atual de desenvolvimento, qual tem sido o maior desafio no seu fluxo de trabalho: traduzir os requisitos de negócio para o time de desenvolvimento ou conseguir que os stakeholders definam os requisitos sem mudar de ideia a cada sprint?
 
 
