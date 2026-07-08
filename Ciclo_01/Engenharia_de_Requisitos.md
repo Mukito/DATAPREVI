@@ -14,26 +14,28 @@ Engenharia Reversa / Análise de Documentos: Investigar o banco de dados do sist
 
 ## 2. Requisitos Funcionais vs. Requisitos Não-Funcionais
 Esta é a divisão técnica fundamental da especificação.
-  * Requisitos Funcionais (RF)
+  * **Requisitos Funcionais (RF)**
     * Definem o que o sistema deve fazer. São os comportamentos, entradas, processamentos e saídas esperadas.
     * Exemplo Técnico: "O sistema deve enviar um token JWT de autenticação via cabeçalho HTTP Bearer após a validação bem-sucedida das credenciais do usuário."
   
-  * Requisitos Não-Funcionais (RNF)
+  * **Requisitos Não-Funcionais (RNF)**
     * Definem como o sistema deve fazer. Estão ligados a restrições de arquitetura, qualidade, desempenho e segurança (os famosos atributos de qualidade ou "-dades": escalabilidade, portabilidade, confiabilidade).
     * Exemplo Técnico: "A API de autenticação deve responder a requisições em menos de 200ms (latência) sob uma carga de 10.000 requisições simultâneas (concorrência)."
 
-  * Critério	Requisitos Funcionais (RF)	Requisitos Não-Funcionais (RNF)
+  * **Critério	Requisitos Funcionais (RF)	Requisitos Não-Funcionais (RNF)**
     * Foco	Funcionalidades e recursos	Restrições e critérios de qualidade
     * Arquitetura	Molda a lógica de negócios	Molda a infraestrutura e o design arquitetural
     * Validação	Passa/Falha (A funcionalidade existe?)	Métricas quantitativas (Desempenho, segurança)
 
 ## 3. Histórias de Usuário (User Stories) e Critérios de Aceite
-No desenvolvimento ágil (Scrum/Kanban), a documentação pesada de requisitos deu espaço às User Stories, que funcionam como um lembrete para uma conversa técnica. Elas seguem o padrão clássico:
+No desenvolvimento ágil (**Scrum/Kanban**), a documentação pesada de requisitos deu espaço às User Stories, 
+que funcionam como um lembrete para uma conversa técnica. Elas seguem o padrão clássico:
 
-Como um [tipo de usuário],
-Eu quero [realizar uma ação / funcionalidade],
-Para que [eu obtenha algum valor de negócio].
-
+<br>
+Como um [tipo de usuário],<br>
+Eu quero [realizar uma ação / funcionalidade],<br>
+Para que [eu obtenha algum valor de negócio].<br>
+<br>
 A Anatomia Técnica: Critérios de Aceite (BDD)
 Uma User Story sem critérios de aceite não serve para os desenvolvedores e QAs. Tecnicamente, estruturamos os critérios usando a sintaxe do BDD (Behavior-Driven Development) para que possam ser facilmente automatizados em testes funcionais (utilizando Cucumber ou Gherkin):
 
@@ -41,7 +43,7 @@ Dado (Given): O contexto ou estado inicial do sistema.
 Quando (When): A ação executada pelo usuário.
 Então (Then): O resultado esperado (a saída ou mudança de estado).
 
-Exemplo Prático:
+### Exemplo Prático:
 Dado que o usuário está na página de checkout com um produto de $100 no carrinho,
 Quando ele inserir o cupom de desconto "DESCONTO10",
 Então o sistema deve aplicar 10% de redução e atualizar o valor total para $90.
