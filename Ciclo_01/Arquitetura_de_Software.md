@@ -109,7 +109,7 @@ Listar Livros
   * **Método**: **`POST`**
   * **Rota**: **`/books`**
   * **Request Body (JSON)**:
-    ```
+    ```json
     {
       "title": "O Senhor dos Anéis",
       "author": "J.R.R. Tolkien",
@@ -117,23 +117,58 @@ Listar Livros
     }
 
     ```
+    
+ * **Respostas Possíveis**:
+   * `201 Created` se for salvo com sucesso (Retorna o livro criado com o ID gerado).
+   * `400 Bad Request` se o cliente esquecer de enviar o title ou se o isbn for inválido.
+   * `401 Unauthorized` se o usuário tentando cadastrar não estiver logado (ex: um visitante anônimo).
 
- * Respostas Possíveis:
-   * 201 Created se o empréstimo for gerado.
-   * 400 Bad Request se o livro solicitado já estiver emprestado para outra pessoa (erro de negócio).
-   * 404 Not Found se o bookId ou o userId não existirem no sistema.
+#### Atualizar um Livro (Substituição Total)
+  * **Método**: `PUT`
+  * **Rota**: `/books/:id`
+  * **Request Body (JSON)**: Envia todos os campos modificados ou não.
+  * **Resposta de Sucesso**: `200 OK`.
+
+#### Deletar um Livro
+  * **Método**: DELETE
+  * **Rota**: /books/:id
+  * **Respostas Possíveis**:
+    * `200 OK` ou `204 No Content` (Sucesso, sem conteúdo para retornar).
+    * `404 Not Found` se tentar deletar um livro que já não existe.
+
+### Operações de Empréstimo (`/loans`)
+Aqui entra o "pulo do gato" do design RESTful. Em vez de criar uma rota com verbo no nome (como `/solicitarEmprestimo` ou `/devolverLivro`), nós tratamos o **Empréstimo** como um recurso próprio.
+
+#### Solicitar Empréstimo de um Livro
+Criar um empréstimo significa dar um POST na coleção de empréstimos.
+  * **Método**: POST
+  * **Rota**: /loans
+  * **Request Body (JSON)**:
+
+```json
+{
+  "userId": "usr_9921",
+  "bookId": "45"
+}
+
+```
+
+#### * Respostas Possíveis:
+   * **`201 Created`** se o empréstimo for gerado.
+   * **`400 Bad Request`** se o livro solicitado já estiver emprestado para outra pessoa (erro de negócio).
+   * **`404 Not Found`** se o **`bookId`** ou o **`userId`** não existirem no sistema.
 
 ### Devolver um Livro (Atualizar o Empréstimo)
-Quando o usuário devolve o livro, o empréstimo foi modificado (ganhou uma data de devolução e o status mudou para concluído). Usamos PATCH porque estamos atualizando apenas uma parte do empréstimo.
+Quando o usuário devolve o livro, o empréstimo foi modificado (ganhou uma data de devolução e o status mudou para concluído). Usamos `PATCH` porque estamos atualizando apenas uma parte do empréstimo.
 
-   * Método: PATCH
-   * Rota: /loans/:id/return (Nota: Extensões na rota como /return são aceitas no REST clássico para ações específicas em recursos).
-   * Respostas Possíveis:
-     * 200 OK indicando que a devolução foi registrada.
-     * 400 Bad Request se o livro já tiver sido devolvido anteriormente.
+   * **Método**: `PATCH`
+   * **Rota**: `/loans/:id/return` (Nota: Extensões na rota como `/return` são aceitas no REST clássico para ações específicas em recursos).
+   * **Respostas Possíveis**:
+     * `200 OK` indicando que a devolução foi registrada.
+     * `400 Bad Request` se o livro já tiver sido devolvido anteriormente.
 
 **Cenário Extra: O Erro do Servidor** (**`500 Internal Server Error`**)
-Imagine que o usuário faz um GET /books, mas o banco de dados da biblioteca caiu naquele exato momento. O seu código vai capturar essa falha interna e deve retornar obrigatoriamente um 500 Internal Server Error com uma mensagem amigável (sem expor dados sensíveis do banco):
+Imagine que o usuário faz um `GET /books`, mas o banco de dados da biblioteca caiu naquele exato momento. O seu código vai capturar essa falha interna e deve retornar obrigatoriamente um `500 Internal Server Error` com uma mensagem amigável (sem expor dados sensíveis do banco):
 
 ```
 {
