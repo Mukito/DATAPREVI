@@ -1,4 +1,4 @@
-
+# Engenharia de Requisitos
 Olhando para um lado técnico fale sobre Engenharia de Requisitos: Técnicas de elicitação, requisitos funcionais vs. não-finais, histórias de usuário os principais tópicos
 
 Olhar para a Engenharia de Requisitos (ER) pelo prisma técnico é entender que ela não é apenas "conversar com o cliente", mas sim a fase mais crítica da engenharia de software: traduzir necessidades de negócios muitas vezes confusas em especificações técnicas precisas, testáveis e implementáveis.
