@@ -170,7 +170,7 @@ Quando o usuário devolve o livro, o empréstimo foi modificado (ganhou uma data
 **Cenário Extra: O Erro do Servidor** (**`500 Internal Server Error`**)
 Imagine que o usuário faz um `GET /books`, mas o banco de dados da biblioteca caiu naquele exato momento. O seu código vai capturar essa falha interna e deve retornar obrigatoriamente um `500 Internal Server Error` com uma mensagem amigável (sem expor dados sensíveis do banco):
 
-```
+```json
 {
   "error": "Desculpe, ocorreu um erro interno no nosso sistema. Tente novamente mais tarde."
 }
