@@ -23,6 +23,7 @@
 
 
 # 7 
+<img width="1333" height="747" alt="image" src="https://github.com/user-attachments/assets/cdff48ce-1610-4933-a99b-6819454d26fa" />
 
 
 
