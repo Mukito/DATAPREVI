@@ -17,6 +17,12 @@
 
 
 # 6
+<img width="1326" height="747" alt="image" src="https://github.com/user-attachments/assets/4b87ee25-fb74-45f8-b61b-387304fd5e5b" />
+
+<img width="1322" height="744" alt="image" src="https://github.com/user-attachments/assets/35708827-6006-4a11-a878-5cd3e5c2ea19" />
+
+
+# 7 
 
 
 
