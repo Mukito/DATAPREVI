@@ -1,55 +1,49 @@
 # MODULO I - CONHECIMENTOS GERAIS (PARA TODOS OS CARGOS/PERFIS)
 **LÍNGUA PORTUGUESA**: 
-1 Compreensão e interpretação de textos de gêneros variados. 
-2 Reconhecimento de tipos e gêneros textuais. 
-3 Domínio da ortografia oficial. 
-4 Domínio dos mecanismos de coesão textual. 
-  4.1 Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual. 
-  4.2 Emprego de tempos e modos verbais. 
-5 Domínio da estrutura morfossintática do período. 
-  5.1 Emprego das classes de palavras. 
-  5.2 Relações de coordenação entre orações e entre termos da oração. 
-  5.3 Relações de subordinação entre orações e entre termos da oração. 
-  5.4 Emprego dos sinais de pontuação. 
-  5.5 Concordância verbal e nominal. 
-  5.6 Regência verbal e nominal. 
-  5.7 Emprego do sinal indicativo de crase. 
-  5.8 Colocação dos pronomes átonos. 
-6 Reescrita de frases e parágrafos do texto. 
-  6.1 Significação das palavras. 
-  6.2 Substituição de palavras ou de trechos de texto. 
-  6.3 Reorganização da estrutura de orações e de períodos do texto. 
-  6.4 Reescrita de textos de diferentes gêneros e níveis de formalidade.
+1. Compreensão e interpretação de textos de gêneros variados.
+2. Reconhecimento de tipos e gêneros textuais.
+3. Domínio da ortografia oficial.
+4. Domínio dos mecanismos de coesão textual.
+   * Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.
+   * Emprego de tempos e modos verbais. 
+5. Domínio da estrutura morfossintática do período.
+   * Emprego das classes de palavras.
+   * Relações de coordenação entre orações e entre termos da oração.
+   * Relações de subordinação entre orações e entre termos da oração.
+   * Emprego dos sinais de pontuação.
+   * Concordância verbal e nominal.
+   * Regência verbal e nominal.
+   * Emprego do sinal indicativo de crase.
+   * Colocação dos pronomes átonos. 
+6. Reescrita de frases e parágrafos do texto. 
+   * Significação das palavras.
+   * Substituição de palavras ou de trechos de texto.
+   * Reorganização da estrutura de orações e de períodos do texto.
+   * Reescrita de textos de diferentes gêneros e níveis de formalidade.
   
 **LÍNGUA INGLESA**: 
-1 Compreensão de textos em língua inglesa e itens gramaticais relevantes para o entendimento dos sentidos dos textos.
+1. Compreensão de textos em língua inglesa e itens gramaticais relevantes para o entendimento dos sentidos dos textos.
 
 **RACIOCÍNIO LÓGICO**: 
-1 Estruturas lógicas. 
-2 Lógica de argumentação: analogias, inferências, deduções e conclusões. 
-3 Lógica sentencial (ou proposicional). 
-  3.1 Proposições simples e compostas. 
-  3.2 Tabelas-verdade.
-  3.3 Equivalências. 
-  3.4 Diagramas lógicos. 
-4 Lógica de primeira ordem. 
-5 Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais
+1. Estruturas lógicas.
+2. Lógica de argumentação: analogias, inferências, deduções e conclusões.
+3. Lógica sentencial (ou proposicional). 
+  * Proposições simples e compostas.
+  * Tabelas-verdade.
+  * Equivalências.
+  * Diagramas lógicos. 
+4. Lógica de primeira ordem.
+5. Raciocínio lógico envolvendo problemas aritméticos, geométricos e matriciais
 
 **ATUALIDADES E INTELIGÊNCIA ARTIFICIAL**: 
-1 Tópicos relevantes e atuais de diversas áreas, tais como segurança, transportes, política, economia, sociedade, educação, saúde, cultura, tecnologia, energia, relações
-internacionais, desenvolvimento sustentável e ecologia. 
-2 Inteligência Artificial: fundamentos e aplicações:
-  conceitos de inteligência artificial; aprendizado da máquina; introdução aos modelos generativos e modelos de linguagem; ética, governança e privacidade em IA.
+1. Tópicos relevantes e atuais de diversas áreas, tais como segurança, transportes, política, economia, sociedade, educação, saúde, cultura, tecnologia, energia, relações internacionais, desenvolvimento sustentável e ecologia. 
+2. Inteligência Artificial: fundamentos e aplicações: conceitos de inteligência artificial; aprendizado da máquina; introdução aos modelos generativos e modelos de linguagem; ética, governança e privacidade em IA.
 
 **LEGISLAÇÃO ACERCA DE SEGURANÇA DA INFORMAÇÃO E PROTEÇÃO DE DADOS**: 
-1 Lei nº 12.527/2011 (Lei de Acesso à Informação): 
-  capítulos I, II, III, IV e V; Dec. nº 7.724 e nº 7845. 
-2 Lei nº 12.737/2012 (Lei de Delitos Informáticos): 
-  art. 2º. 
-3 Lei nº 12.965/2014 (Marco Civil da Internet): 
-  capítulos II, Seção I, e III, Seções I e II. 
-4 Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD): 
-  capítulos I, II, III, IV, VII, VIII e IX. 
+1. Lei nº 12.527/2011 (Lei de Acesso à Informação): capítulos I, II, III, IV e V; Dec. nº 7.724 e nº 7845.
+2. Lei nº 12.737/2012 (Lei de Delitos Informáticos): art. 2º.
+3. Lei nº 12.965/2014 (Marco Civil da Internet): capítulos II, Seção I, e III, Seções I e II.
+4. Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD): capítulos I, II, III, IV, VII, VIII e IX. 
 
 =========================================================================================
 ## MODULO II - CONHECIMENTOS ESPECÍFICOS:
