@@ -7,18 +7,18 @@ Para compreender toda a estrutura morfológica, dividimos o estudo em duas grand
 
 ### 1. Estrutura das Palavras (Elementos Morficos)
 As palavras são formadas por unidades mínimas de significado chamadas morfemas. São eles:
-    - **Radical**: É a base da palavra, a parte que contém o significado principal e que normalmente não muda.
+   - **Radical**: É a base da palavra, a parte que contém o significado principal e que normalmente não muda.
        - **Exemplo**: Certo, certeza, incerto.
-    - **Afixos**: Elementos que se juntam ao radical para modificar seu significado e criar novas palavras. Dividem-se em:
+   - **Afixos**: Elementos que se juntam ao radical para modificar seu significado e criar novas palavras. Dividem-se em:
         - **Prefixos**: Vêm antes do radical. Ex: infeliz, refazer.
         - **Sufixos**: Vêm depois do radical. Ex: felizmente, lealdade.
-    - **Desinências**: Terminações que indicam as flexões das palavras. Podem ser:
+   - **Desinências**: Terminações que indicam as flexões das palavras. Podem ser:
           - **Nominais**: Indicam gênero (masculino/feminino) e número (singular/plural). Ex: alun-o-s (gênero o, número s).
           - **Verbais**: Indicam modo, tempo, número e pessoa nos verbos. Ex: cantá-vamos (indica pretérito imperfeito do indicativo, 1ª pessoa do plural).
-    - **Vogal Temática**: Vogal que se junta ao radical para prepará-lo para receber as desinências.
+   - **Vogal Temática**: Vogal que se junta ao radical para prepará-lo para receber as desinências.
           - **Nos verbos**, indica a conjugação: a (1ª - cantar), e (2ª - vender), i (3ª - partir).
-    - **Tema**: É a junção do Radical + Vogal Temática. Ex: canta (cant + a).
-    - **Vogais e Consoantes de Ligação**: Letras inseridas apenas para facilitar a pronúncia, sem valor de significado. Ex: cafeteira, gasômetro.
+   - **Tema**: É a junção do Radical + Vogal Temática. Ex: canta (cant + a).
+   - **Vogais e Consoantes de Ligação**: Letras inseridas apenas para facilitar a pronúncia, sem valor de significado. Ex: cafeteira, gasômetro.
     
 ### 2. Processos de Formação de Palavras 
 As palavras novas surgem na língua principalmente por dois processos:
