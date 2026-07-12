@@ -21,3 +21,21 @@
 
 ## Contagem Detalhada
 <img width="1317" height="742" alt="image" src="https://github.com/user-attachments/assets/2f106224-762d-4092-98cb-f8a5bbd80ea9" />
+
+## Contagem Estimativa
+<img width="1320" height="747" alt="image" src="https://github.com/user-attachments/assets/ab77824b-f717-4e9c-8a24-4dcf7c28b887" />
+
+## Contagem Indicativa
+<img width="1311" height="740" alt="image" src="https://github.com/user-attachments/assets/535fcb79-e34c-4e0f-b0ed-127ae32b8af8" />
+
+
+### Cenarios
+<img width="1311" height="739" alt="image" src="https://github.com/user-attachments/assets/3dbc01fa-b04b-4702-9526-256b056d7899" />
+
+
+## Questão Cespe 2023
+<img width="1317" height="744" alt="image" src="https://github.com/user-attachments/assets/eb3de599-1f2a-43d6-9d0f-16b4b85878b5" />
+
+<img width="1311" height="735" alt="image" src="https://github.com/user-attachments/assets/c98c7b0c-4d68-4847-aa97-1632ab0a4869" />
+
+
