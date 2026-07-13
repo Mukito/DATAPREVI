@@ -149,4 +149,32 @@ A alternativa **D** descreve, na verdade, as características do **discurso indi
 
 
 
+# 9
+<img width="1143" height="441" alt="image" src="https://github.com/user-attachments/assets/f9f345e5-ceb3-404d-af6e-4e3bdc598e21" />
+
+A alternativa correta é a **A**: **Consequência**.
+
+**Explicação**:
+A locução conjuntiva **"de modo que"** introduz uma **oração subordinada adverbial consecutiva**, que exprime a **consequência** ou o resultado do fato apresentado na oração principal.
+
+Podemos entender a estrutura da seguinte forma:
+ * **Fato/Causa**: A moça recostou-se em uma cadeira de balanço no claro de uma janela...
+ * **Efeito/Consequência**: ...e o resultado disso foi que o seu gracioso vulto ficou imerso na plena luz.
+
+Outras locuções que trazem essa mesma ideia de consequência e poderiam substituir o termo no texto são: de forma que, de sorte que ou de maneira que.
+
+
+# 10
+<img width="1147" height="429" alt="image" src="https://github.com/user-attachments/assets/24949c4a-26e5-4781-9123-4b611de34797" />
+
+Na alternativa **D**: **"Coitada! Devia viver bem aborrecida da sorte."**
+
+O verbo **viver** está funcionando como um legítimo **verbo de ligação**. Na estrutura das orações, quando o verbo "viver" é seguido por um adjetivo (ou locução adjetiva) que qualifica o sujeito, ele perde o seu sentido original de "existir" ou "biologia" e passa a indicar um **estado contínuo**, **permanente ou prolongado**.
+
+ * **Análise sintática da D**:
+  * Sujeito oculto: Ela (A coitada)
+  * Verbo de ligação: **viver** (na locução "devia viver")
+  * Predicativo do sujeito: bem aborrecida da sorte (o **estado** em que ela se encontrava constantemente).
+  * Significado: Ela estava constantemente aborrecida.
+
 
