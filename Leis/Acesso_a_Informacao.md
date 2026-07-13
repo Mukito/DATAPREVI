@@ -100,5 +100,14 @@ Conforme o Art. 27, I, Ministros de Estado detêm a competência para classifica
 **C. Qualquer servidor ocupante de cargo DAS-4 ou superior.**  <br>
 **D. Titulares de autarquias e fundações públicas.** <br>
 
+## Pergunta 5
+Sobre o recurso interposto contra a negativa de acesso, uma vez recebido pela autoridade hierarquicamente superior, qual o prazo para que esta se manifeste sobre a decisão?
+
+**A. 48 horas.** <br>
+**B. 10 dias.** <br>
+**C. 5 dias.** - Corretas <br>
+O Art. 15, parágrafo único, determina que a autoridade hierarquicamente superior deve decidir o recurso no prazo de 5 dias. <br>
+**D. 15 dias.** <br>
+
 
 
