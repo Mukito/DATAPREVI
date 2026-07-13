@@ -39,10 +39,11 @@ Abaixo está o resumo estruturado dos tópicos solicitados para guiar seus estud
 Regulamenta a LAI no âmbito do **Poder Executivo Federal**.
   * **SIC (Serviço de Informações ao Cidadão)**: Todo órgão/entidade federal deve instalar um SIC em local de fácil acesso para receber, registrar e orientar os cidadãos sobre os pedidos de acesso.
   * **Recursos em Caso de Negativa**: Estabelece uma linha clara de recursos no Executivo Federal:
-    1. Autoridade hierarquicamente superior à que exarou a decisão.
-    2. Autoridade máxima do órgão ou entidade.
-    3. Controladoria-Geral da União (CGU).
-    4. Comissão Mista de Reavaliação de Informações (CMRI).
+  
+   1. Autoridade hierarquicamente superior à que exarou a decisão.
+   2. Autoridade máxima do órgão ou entidade.
+   3. Controladoria-Geral da União (CGU).
+   4. Comissão Mista de Reavaliação de Informações (CMRI).
 
   * **Transparência Ativa Ampliada**: Detalha rigorosamente como os sites federais devem apresentar os dados de auditorias, inspeções, convênios e despesas com diárias e passagens.
 
