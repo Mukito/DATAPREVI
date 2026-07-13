@@ -23,10 +23,10 @@ São a base de quase toda oração:
 
 ### 3. Termos Integrantes da Oração
 Completam o sentido de verbos ou nomes que têm significado incompleto:
-  * Objeto Direto (OD): Completa um verbo transitivo direto, sem preposição obrigatória. ("Eu comprei o livro.")
-  * Objeto Indireto (OI): Completa um verbo transitivo indireto, obrigatoriamente com preposição. ("Ela gosta de música.")
-  * Complemento Nominal (CN): Completa o sentido de um substantivo abstrato, adjetivo ou advérbio. Sempre vem com preposição. ("Tenho medo de fantasmas.")
-  * Agente da Passiva: O termo que pratica a ação na voz passiva analítica. ("O conteúdo foi revisado pelo aluno.")
+  * **Objeto Direto (OD)**: Completa um verbo transitivo direto, sem preposição obrigatória. ("Eu comprei o livro.")
+  * **Objeto Indireto (OI)**: Completa um verbo transitivo indireto, obrigatoriamente com preposição. ("Ela gosta de música.")
+  * **Complemento Nominal (CN)**: Completa o sentido de um substantivo abstrato, adjetivo ou advérbio. Sempre vem com preposição. ("Tenho medo de fantasmas.")
+  * **Agente da Passiva**: O termo que pratica a ação na voz passiva analítica. ("O conteúdo foi revisado pelo aluno.")
 
 ### 4. Termos Acessórios da Oração
 Trazem informações extras, mas podem ser retirados sem destruir a estrutura básica da frase:
