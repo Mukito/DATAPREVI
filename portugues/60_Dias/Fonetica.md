@@ -125,7 +125,9 @@ Dígrafo ocorre quando **duas letras** são combinadas para representar um únic
 
 
 ### Tabela Geral de Dígrafos
-| Dígrafo | Tipo | Som Produzido (Fonema) | Exemplos | 
+
+| Dígrafo | Tipo | Som Produzido (Fonema) | Exemplos |
+|---------|------|------------------------|----------|
 | ch | Consonantal | /x/ | chu-va, cha-ve | 
 | lh | Consonantal | /λ/ | fi-lho, mu-lher | 
 | nh | Consonantal | /ɲ/ | ni-nho, va-nha | 
@@ -145,57 +147,39 @@ Dígrafo ocorre quando **duas letras** são combinadas para representar um únic
 
 
 
-8. Classificação dos Fonemas
+### 8. Classificação dos Fonemas
 Podemos classificar a natureza fonética dos sons pelos seguintes critérios articulatórios:
+ * **Orais**: Produzidos quando o véu palatino se eleva, bloqueando a cavidade nasal, forçando a saída acústica pela boca.
+   * Exemplos: /p/, /t/, /f/, /a/, /e/.
+ * **Nasais**: O véu palatino abaixa, permitindo que a corrente de ar ressoe no nariz.
+   * Exemplos: /m/, /n/, /ɲ/ (nh), /ã/, /ĩ/.
+ * **Sonoros**: Sons produzidos com a vibração das cordas vocais.
+   * Exemplos: /b/, /d/, /g/, /v/, /z/, /j/, além de todas as vogais.
+ * **Surdos**: Sons produzidos sem a vibração das cordas vocais (apenas passagem de ar).
+   * Exemplos: /p/, /t/, /k/, /f/, /s/, /x/ (ch).
 
-Orais: Produzidos quando o véu palatino se eleva, bloqueando a cavidade nasal, forçando a saída acústica pela boca.
-
-Exemplos: /p/, /t/, /f/, /a/, /e/.
-
-Nasais: O véu palatino abaixa, permitindo que a corrente de ar ressoe no nariz.
-
-Exemplos: /m/, /n/, /ɲ/ (nh), /ã/, /ĩ/.
-
-Sonoros: Sons produzidos com a vibração das cordas vocais.
-
-Exemplos: /b/, /d/, /g/, /v/, /z/, /j/, além de todas as vogais.
-
-Surdos: Sons produzidos sem a vibração das cordas vocais (apenas passagem de ar).
-
-Exemplos: /p/, /t/, /k/, /f/, /s/, /x/ (ch).
-
-9. Separação Silábica
+### 9. Separação Silábica
 A sílaba é um fonema ou grupo de fonemas pronunciados numa única emissão de voz.
 
-Regras Fundamentais (Passo a Passo)
-Toda sílaba tem apenas uma vogal. Identifique as vogais da palavra. O número de vogais ditará o número de sílabas.
+#### Regras Fundamentais (Passo a Passo)
+ 1. **Toda sílaba tem apenas uma vogal**. Identifique as vogais da palavra. O número de vogais ditará o número de sílabas.
+ 2. **Separam-se**:
+  * Hiatos: sa-ú-de, di-a.
+  * Dígrafos rr, ss, sc, sç, xc, xs: car-ro, pas-so, des-cer, nas-ça, ex-ce-to.
+  * Encontros consonantais imperfeitos (em sílabas distintas): af-ta, ad-vo-ga-do, ob-je-to.
+ 3. **Não se separam**:
+  * Ditongos e Tritongos: cai-xa, U-ru-guai.
+  * Dígrafos ch, lh, nh, qu, gu: chu-va, fi-lho*, ga-li-nha, que-ro, guer-ra.
+  * Encontros consonantais perfeitos (consoante + l ou r): pri-mo, pla-ca, tra-tor.
 
-Separam-se:
+#### Classificação quanto ao número de sílabas
+  * Monossílabos: Possuem apenas uma sílaba.
+    * Exemplos: pé, sol, mar, luz, nó.
+  * Dissílabos: Possuem duas sílabas.
+    * Exemplos: ca-sa, li-vro, ga-to, pra-to.
+  * Trissílabos: Possuem três sílabas.
 
-Hiatos: sa-ú-de, di-a.
 
-Dígrafos rr, ss, sc, sç, xc, xs: car-ro, pas-so, des-cer, nas-ça, ex-ce-to.
-
-Encontros consonantais imperfeitos (em sílabas distintas): af-ta, ad-vo-ga-do, ob-je-to.
-
-Não se separam:
-
-Ditongos e Tritongos: cai-xa, U-ru-guai.
-
-Dígrafos ch, lh, nh, qu, gu: chu-va, fi-lho*, ga-li-nha, que-ro, guer-ra.
-
-Encontros consonantais perfeitos (consoante + l ou r): pri-mo, pla-ca, tra-tor.
-
-Classificação quanto ao número de sílabas
-Monossílabos: Possuem apenas uma sílaba.
-
-Exemplos: pé, sol, mar, luz, nó.
-
-Dissílabos: Possuem duas sílabas.
-
-Exemplos: ca-sa, li-vro, ga-to, pra-to.
-
-Trissílabos: Possuem três sílabas.
 
 Exemplos: ca-der-no, ca-ne-ta, es-co-la.
 
