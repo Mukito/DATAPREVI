@@ -64,3 +64,55 @@ Se você usa `GROUP BY`, toda coluna presente na cláusula `SELECT` que não sej
     * `_` (underline): Representa exatamente um caractere.
     * Exemplo: `WHERE nome LIKE 'A_o%'` (Começa com 'A', segunda letra qualquer, terceira 'o', e qualquer coisa depois).
 
+=========================================================
+
+## 1. GRANT (Conceder Permissão)
+O comando **GRANT** atribui privilégios específicos (como ler, inserir ou modificar dados) a um usuário ou grupo.
+
+**Sintaxe Básica**:
+```SQL
+GRANT tipo_de_permissao ON nome_da_tabela TO nome_do_usuario;
+
+```
+
+Exemplos comuns:
+  * Dar acesso apenas de leitura (SELECT):
+    ```SQL
+    GRANT SELECT ON usuarios TO joao;
+    ```
+  * Dar múltiplos privilégios em uma tabela:
+    ```SQL
+    GRANT SELECT, INSERT, UPDATE ON pedidos TO maria;
+    ```
+  * Dar controle total em uma tabela:
+    ```SQL
+    GRANT ALL PRIVILEGES ON produtos TO admin_loja;
+    ```
+
+## 2. REVOKE (Revogar Permissão)
+O comando `REVOKE` remove privilégios que foram concedidos anteriormente com o `GRANT`.
+
+Sintaxe Básica:
+    ```SQL
+    REVOKE tipo_de_permissao ON nome_da_tabela FROM nome_do_usuario;
+    
+    ```
+
+Exemplos Comuns:
+
+  * Remover a permissão de exclusão (DELETE):
+    ```SQL
+     REVOKE DELETE ON usuarios FROM joao;
+    ```
+
+  * Remover todas as permissões de um usuário:
+    ```SQL
+    REVOKE ALL PRIVILEGES ON pedidos FROM maria;
+    ```
+
+    Resumo dos Principais Privilégios
+    | Privilégio | Descrição |
+    | SELECT | Permite ler/consultar dados (`SELECT`). | 
+    | INSERT | Permite inserir novos registros (INSERT). |
+    | UPDATE | Permite alterar registros existentes (UPDATE). |
+    | DELETE | Permite remover registros (DELETE). | EXECUTEPermite executar stored procedures ou funções.ALL PRIVILEGESConcede todas as permissões disponíveis no objeto.
