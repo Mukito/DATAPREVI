@@ -14,3 +14,15 @@ D. DML ()
   * ✅ **C. DCL (Data Control Language)** → `GRANT`, `REVOKE`.
   * **D. DML (Data Manipulation Language)** → `SELECT`, `INSERT`, `UPDATE`, `DELETE`.
 
+
+# Pergunta 2
+
+Qual cláusula deve ser utilizada para filtrar grupos de registros após a aplicação de uma função de agregação como SUM ou COUNT?
+
+```
+A. ORDER BY ()
+B. WHERE ()
+C. HAVING ()
+D. LIKE ()
+
+```
