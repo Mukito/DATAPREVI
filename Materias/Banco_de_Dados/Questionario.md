@@ -24,5 +24,15 @@ A. ORDER BY ()
 B. WHERE ()
 C. HAVING ()
 D. LIKE ()
+```
 
+# Pergunta 3
+Considere duas tabelas: Clientes (esquerda) e Pedidos (direita). Qual operação retorna TODOS os clientes, independentemente de terem feito um pedido ou não?
+
+```
+A. LEFT JOIN (O garante que todos os registros da tabela da esquerda (Clientes) sejam retornados, preenchendo com NULL onde não há par na direita.)
+Corretas
+B. CROSS JOIN ()
+C. INNER JOIN ()
+D. RIGHT JOIN ()
 ```
