@@ -49,3 +49,52 @@
 
 - Quem comerá a pizza? **EU**! = pronome  
 
+-------------------------------------
+
+
+## 5 - _______ Está o livro?
+  a. Onde <br>
+  b. Aonde <br>
+
+> **Onde** - Lugar fixo, permanência, localização estática
+
+> **Aonde** - Destino, movimento em direção a algum lugar
+
+--------------------------------
+
+## 6 - O Irmão havia ________ a encomenda.
+  a. Pego <br>
+  b. Pegado <br>
+
+
+> **Pego** - Irregular (Ser e Estar) "A encomenda foi pega pelo carteiro."
+
+> **Pegado** - Regular (Ter e Haver) "Eles haviam pegado o ônibus"
+
+> Duas Formas equivalentes do particípio do verbo
+
+
+## 7 - Fui à festa, ______ cheguei atrasada.
+  
+  a. mas <br>
+  b. mais <br>
+
+
+## 8 - ________ Quinze pessoas na reunião
+
+  a. Devem haver
+  b. Deve haver
+
+
+## 9 - Cláudia está _________ esquecida ultimamente
+  
+  a. Meia
+  b. Meio
+
+
+## O Palestrante não havia ______ .
+  
+  a. chego
+  b. chegado
+
+
