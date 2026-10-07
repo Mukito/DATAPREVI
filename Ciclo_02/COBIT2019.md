@@ -50,3 +50,21 @@ O COBIT 2019 utiliza um modelo de avaliação de maturidade baseado no CMMI (Cap
   * **Nível 3 (Estabelecido)**: O processo é documentado e padronizado em toda a organização.
   * **Nível 4 (Predizível)**: O processo opera dentro de limites definidos para atingir seus objetivos.
   * **Nível 5 (Otimizado)**: O processo passa por melhorias contínuas para atender a metas atuais e futuras.
+
+
+
+-----------------------------------------
+
+# Princípios para um sistema de Governança (6)
+ * Prover valor para as partes interessadas.
+ * Abordagem holística
+ * Sistema de governança dinâmico
+ * Governança distinta do gerenciamento
+ * Adaptar-se às necessidades da empresa
+ * Sistema de governança fim-a-fim
+
+# Princípios para um framework de governança (3)
+ * Baseado em um modelo conceitual
+ * Aberto e flexível
+ * Alinhado com principais padrões
+
