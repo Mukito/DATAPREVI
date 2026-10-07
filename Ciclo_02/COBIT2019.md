@@ -7,8 +7,8 @@ Em termos práticos, ele serve para ajudar as organizações a extraírem o máx
 
 ## 1. O que diferencia Governança de Gestão?
 O COBIT faz uma distinção fundamental entre duas disciplinas que costumam ser confundidas:
-  * **Governança**: É papel da alta administração (conselho e diretoria). Garante que as necessidades das partes interessadas sejam avaliadas para determinar objetivos corporativos equilibrados; define a direção por meio de prioridades e tomada de decisão; e monitora o desempenho e a conformidade.
-  * **Gestão**: É responsabilidade da execução (gerentes e equipes de TI). Envolve planejar, construir, executar e monitorar as atividades em alinhamento com a direção definida pelo órgão de governança.
+  * **Governança**: É papel da alta **administração** (conselho e diretoria). Garante que as necessidades das partes interessadas sejam avaliadas para determinar objetivos corporativos equilibrados; define a direção por meio de prioridades e tomada de decisão; e monitora o desempenho e a conformidade.
+  * **Gestão**: É responsabilidade da **execução** (gerentes e equipes de TI). Envolve planejar, construir, executar e monitorar as atividades em alinhamento com a direção definida pelo órgão de governança.
 
 
 ## 2. A Estrutura do COBIT 2019
