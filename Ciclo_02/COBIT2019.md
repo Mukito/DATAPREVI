@@ -68,3 +68,6 @@ O COBIT 2019 utiliza um modelo de avaliação de maturidade baseado no CMMI (Cap
  * Aberto e flexível
  * Alinhado com principais padrões
 
+
+
+<img width="1245" height="301" alt="image" src="https://github.com/user-attachments/assets/a6a92c55-8c04-4102-86e6-312135452373" />
